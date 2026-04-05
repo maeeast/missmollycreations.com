@@ -24,7 +24,10 @@
   --gold-deco: #b5955a;
 }
 
-html { scroll-behavior: smooth; }
+html { 
+  scroll-behavior: smooth; 
+  font-size: 125%;
+}
 
 body {
   background: var(--raven);
@@ -59,8 +62,8 @@ nav {
 
 .nav-logo {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 0.9rem;
-  letter-spacing: 0.32em;
+  font-size: 5rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--gold-text);
   text-decoration: none;
